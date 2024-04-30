@@ -61,7 +61,7 @@ class TimePointTest {
 
 	@Test
 	void futureProximityAdjusterTest‎() {
-		// TODO
+	
 		TimePoint[] points = { new TimePoint(10, TimeUnit.SECOND), new TimePoint(20, TimeUnit.SECOND),
 				new TimePoint(30, TimeUnit.SECOND), new TimePoint(40, TimeUnit.SECOND),
 				new TimePoint(1, TimeUnit.MINUTE), new TimePoint(2, TimeUnit.MINUTE), new TimePoint(3, TimeUnit.MINUTE),

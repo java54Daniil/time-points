@@ -7,7 +7,7 @@ public class FutureProximityAdjuster implements TimePointAdjuster {
 	}
 	@Override
 	public TimePoint adjust(TimePoint point) {
-		// TODO 
+
 		TimePoint closestPoint = null;
 	    long minDiff = Long.MAX_VALUE;
 	    for (TimePoint timePoint : timePoints) {
